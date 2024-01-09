@@ -15,4 +15,4 @@ const sendForogtPasswordMail = readFileSync(resolve(__dirname, './templates/auth
 export const sendOtpMailTemplate = compile(mjml2html(sendOtpMail).html);
 export const sendAvtivateAccountMailTemplate = compile(mjml2html(sendAvtivateAccountMail).html);
 export const sendRegistrationSuccessfulMailTemplate = compile(mjml2html(sendRegistrationSuccessfulMail).html);
-export const sendForogtPasswordMailTemplate = compile(mjml2html(sendForogtPasswordMail).html);
+export const sendForgotPasswordMailTemplate = compile(mjml2html(sendForogtPasswordMail).html);
